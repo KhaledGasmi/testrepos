@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.side_cont {
+    display: flex;
+    background-color: darkslateblue;
+    flex-direction: column;
+    height: 100vh;
+}
+
+img {
+    padding: 20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.text_cont {
+    color: aliceblue;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.text_cont hr {
+    color: aliceblue;
+}
+
+.khaled_side {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.khaled_side hr {
+    width: 100%;
+}
+
+.cont {
+}
+
+.side_h {
+    border-left: 3px solid #5A5A5A;
+    height: 100%;
+    position:absolute;
+    margin: 30px 0 0 2.5px;
+}
+
+.the_c {
+    display: flex;
+    z-index: 100px;
+}
+
+.circle {
+    margin: 27px 32px 0 0;
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #5A5A5A;
+    flex-shrink: 0;
+}
+
+
+.title {
+    display: inline-block;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75vw;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding: 12px 8px;
+    text-align: left;
+    background-color: darkslateblue;
+    color: white;
+}
+
+
